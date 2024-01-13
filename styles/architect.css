@@ -8,7 +8,13 @@
 }
 
 .btn-primary{
-
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF900E;
+    padding: 20px 25px;
+    cursor: pointer;
+    border: 0;
 }
 
 /* Header Style */
@@ -63,3 +69,37 @@ nav li a{
     width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Media Query */
+/* For mobile device */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+
+
+/* For Medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
